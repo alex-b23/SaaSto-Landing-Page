@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About
 
-## Getting Started
+SaaSto is a modern SaaS platform designed to streamline your business operations. This repository contains the source code for the landing page that introduces users to our platform.
 
-First, run the development server:
+## Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The SaaSto Landing Page is built with the following technologies:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Next.js](https://nextjs.org/) - A React framework for building server-rendered applications.
+- [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for building custom designs quickly.
+- [Clerk](https://clerk.dev/) - A powerful authentication and user management system for modern web applications.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Authentication
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+SaaSto Landing Page uses Clerk for authentication and user management. Clerk provides a seamless and secure way to manage user accounts, handle authentication flows, and more. To integrate Clerk with your project, follow the official Clerk documentation.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- Modern and responsive design.
+- Informative sections about SaaSto features.
+- Interactive call-to-action buttons.
+- Smooth scroll navigation.
+- Contact form for inquiries.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Design Created By Designs Templates
+https://designstemplate.gumroad.com/l/Saasto
