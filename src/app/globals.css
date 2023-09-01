@@ -2,26 +2,78 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  scroll-behavior: smooth;
+  color: black;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.primary-color {
+  background-color: #8976FD;
+}
+
+.yellow-bg {
+  background-color: #FCA61F;
+}
+
+.text-color {
+  color: #8976FD;
+}
+
+.text-primary {
+  color: #332C5C;
+}
+
+.text-secondary {
+  color: #494369
+}
+
+.text-third {
+  color: #5E587A
+}
+
+.gradient-blue {
+  position: absolute;
+  width: 200px;
+  height: 438px;
+  opacity: 0.4;
+
+  background: #6DCBFF;
+  filter: blur(190px);
+}
+
+.gradient-purple {
+  position: absolute;
+  width: 200px;
+  height: 438px;
+  opacity: 0.4;
+
+  background: #C06EF3;
+  filter: blur(190px);
+}
+
+.gradient-yellow {
+  position: absolute;
+  width: 200px;
+  height: 438px;
+  opacity: 0.4;
+
+  background: #FDBA09;
+  filter: blur(190px);
+}
+
+.p-text {
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.heading-text {
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
