@@ -1,6 +1,6 @@
 ## About
 
-SaaSto is a modern SaaS platform designed to streamline your business operations. This repository contains the source code for the landing page that introduces users to our platform.
+SaaSto is a modern SaaS platform designed to streamline your business operations. This repository contains the source code for the landing page.
 
 ## Tech Stack
 
