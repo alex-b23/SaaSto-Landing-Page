@@ -11,6 +11,11 @@ The SaaSto Landing Page is built with the following technologies:
 - [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for building custom designs quickly.
 - [Clerk](https://clerk.dev/) - A powerful authentication and user management system for modern web applications.
 
+## Installation
+
+- Clone the Github rep using git clone
+- Once cloned, Open terminal and run "npm run dev"
+
 ## Authentication
 
 SaaSto Landing Page uses Clerk for authentication and user management. Clerk provides a seamless and secure way to manage user accounts, handle authentication flows, and more. To integrate Clerk with your project, follow the official Clerk documentation.
