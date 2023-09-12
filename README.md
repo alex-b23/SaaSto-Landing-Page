@@ -13,7 +13,7 @@ The SaaSto Landing Page is built with the following technologies:
 
 ## Installation
 
-- Clone the Github rep using git clone
+- Clone the Github rep using "git clone https://github.com/alex-b23/SaaSto-Landing-Page.git"
 - Once cloned, Open terminal and run "npm run dev"
 
 ## Authentication
